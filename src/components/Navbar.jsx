@@ -11,7 +11,7 @@ export default function Navbar() {
         {/* Brand */}
         <div className="flex items-center gap-4">
           <img
-            src="public/images/logo-azul-nutriglar.png"
+            src="/images/logo-azul-nutriglar.png"
             alt="Nutriglar"
             className="w-28 h-19 rounded"
           />
