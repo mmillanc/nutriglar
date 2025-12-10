@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================
+   Base global mínima
+========================= */
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #ffffff;
+  color: #111827; /* gray-900 */
+}
+
+/* =========================
+   Componentes reutilizables
+========================= */
+@layer components {
+  .btn {
+    @apply bg-black text-white px-4 py-2 rounded-lg hover:bg-gray-800 transition;
+  }
+
+  .card {
+    @apply border rounded-xl p-4 shadow-sm bg-white;
+  }
+}
+
+/* =========================
+   Utilidades opcionales
+========================= */
+@layer utilities {
+  .carousel-scroll {
+    scroll-snap-type: x mandatory;
+  }
+}
