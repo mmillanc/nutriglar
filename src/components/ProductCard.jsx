@@ -1,6 +1,7 @@
+import { trackAffiliateClick } from '../utils/trackAffiliateClick'
 export function ProductCard({ product }) {
 return (
-<article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:shadow-lg">
+<article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
 {/* Imagen con altura uniforme */}
 <div className="relative aspect-square w-full overflow-hidden">
 <img
@@ -37,10 +38,14 @@ Recomendado
 href={product.url}
 target="_blank"
 rel="noopener noreferrer"
-className="mt-auto inline-flex items-center justify-center rounded-xl bg-black py-2.5 text-sm font-medium text-white transition hover:bg-gray-800"
+onClick={() => trackAffiliateClick({ product })}
+className="mt-auto inline-flex items-center justify-center rounded-xl bg-black py-3 text-sm font-medium text-white transition hover:bg-gray-800"
 >
-Ver producto
+Ver precio
 </a>
+<p className="mt-2 text-center text-[11px] text-gray-400">
+Enlace afiliado
+</p>
 </div>
 </article>
 )

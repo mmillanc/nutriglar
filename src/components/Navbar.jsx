@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 export default function Navbar(){
   return (
@@ -12,9 +14,10 @@ export default function Navbar(){
           </div>
         </div>
         <nav className="hidden md:flex gap-4 items-center">
-          <a className="px-3 py-2 rounded hover:bg-gray-100" href="#suplementos">Suplementos</a>
-          <a className="px-3 py-2 rounded hover:bg-gray-100" href="#deporte">Deporte</a>
-          <a className="px-3 py-2 rounded hover:bg-gray-100" href="#accesorios">Accesorios</a>
+          <Link to="/nutricion" className="px-3 py-2 rounded hover:bg-gray-100"> Nutrición </Link>
+          <Link to="/suplementos" className="px-3 py-2 rounded hover:bg-gray-100"> Suplementos </Link>
+          <Link to="/deporte" className="px-3 py-2 rounded hover:bg-gray-100"> Deporte </Link>
+          <Link to="/nutricion" className="px-3 py-2 rounded hover:bg-gray-100"> Accesorios </Link>
           <a className="btn" href="#contacto">Contacto</a>
         </nav>
         <div className="md:hidden">{/* mobile menu button placeholder */}
