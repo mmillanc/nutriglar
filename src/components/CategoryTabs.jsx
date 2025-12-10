@@ -1,8 +1,8 @@
 const categories = [
   { id: "nutricion", label: "Nutrición" },
-  { id: "suplementos", label: "Suplementos" },
+  { id: "equipamento", label: "Equipamento deportivo" },
   { id: "ejercicio", label: "Ejercicio" },
-  { id: "equipamiento", label: "Equipamiento" }
+  { id: "accesorios", label: "Accesorios" }
 ];
 
 export default function CategoryTabs({ active, setActive }) {

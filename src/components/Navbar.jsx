@@ -1,32 +1,73 @@
-import { Link, useLocation } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+
+const linkBase =
+  "px-3 py-2 rounded text-sm font-medium transition"
 
 export default function Navbar() {
-  const location = useLocation()
-
-  const isActive = (path) =>
-    location.pathname === path
-      ? "px-3 py-2 border-b-2 border-black font-semibold"
-      : "px-3 py-2 text-gray-600 hover:text-black"
-
   return (
-    <header className="bg-white shadow">
-      <div className="max-w-6xl mx-auto flex justify-between items-center p-4">
-
-        <div className="flex items-center gap-3">
-          <img src="/logo192.png" className="w-10 h-10 rounded" />
+    <header className="bg-white shadow sticky top-0 z-40">
+      <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
+        
+        {/* Brand */}
+        <div className="flex items-center gap-4">
+          <img
+            src="public/images/logo-azul-nutriglar.png"
+            alt="Nutriglar"
+            className="w-28 h-19 rounded"
+          />
           <div>
-            <h1 className="font-bold">Nutriglar</h1>
-            <p className="text-xs text-gray-500">Productos recomendados</p>
+            <h1 className="font-bold text-lg">Nutriglar</h1>
+            <p className="text-xs text-gray-500">
+              Recomendados afiliados
+            </p>
           </div>
         </div>
 
-        <nav className="hidden md:flex gap-6">
-          <Link to="/nutricion" className={isActive("/nutricion")}>Nutrición</Link>
-          <Link to="/suplementos" className={isActive("/suplementos")}>Suplementos</Link>
-          <Link to="/ejercicio" className={isActive("/ejercicio")}>Ejercicio</Link>
-          <Link to="/accesorios" className={isActive("/accesorios")}>Accesorios</Link>
-        </nav>
+        {/* Desktop nav */}
+        <nav className="hidden md:flex gap-2 items-center">
+          <NavLink
+            to="/nutricion"
+            className={({ isActive }) =>
+              `${linkBase} ${
+                isActive
+                  ? 'bg-[#70E03D] text-white'
+                  : 'text-gray-600 hover:bg-gray-100'
+              }`
+            }
+          >
+            Nutrición
+          </NavLink>
 
+          <NavLink
+            to="/equipamento"
+            className={({ isActive }) =>
+              `${linkBase} ${
+                isActive
+                  ? 'bg-[#70E03D] text-white'
+                  : 'text-gray-600 hover:bg-gray-100'
+              }`
+            }
+          >
+            Equipamento deportivo
+          </NavLink>
+
+          <NavLink
+            to="/deporte"
+            className={({ isActive }) =>
+              `${linkBase} ${
+                isActive
+                  ? 'bg-[#70E03D] text-white'
+                  : 'text-gray-600 hover:bg-gray-100'
+              }`
+            }
+          >
+            Deporte
+          </NavLink>
+
+          <a className="btn ml-2" href="#contacto">
+            Contacto
+          </a>
+        </nav>
       </div>
     </header>
   )

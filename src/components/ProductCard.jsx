@@ -3,18 +3,18 @@ export function ProductCard({ product }) {
 return (
 <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
 {/* Imagen con altura uniforme */}
-<div className="relative aspect-square w-full overflow-hidden">
+<div className="relative aspect-square w-full overflow-hidden flex items-center justify-center">
 <img
 src={product.image}
 alt={product.name}
 loading="lazy"
-className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+className="h-auto w-1/2 object-cover transition-transform duration-300 group-hover:scale-105"
 />
 
 
 {/* Badge recomendado */}
 {product.recommended && (
-<span className="absolute left-3 top-3 rounded-full bg-black px-3 py-1 text-xs font-medium text-white">
+<span className="absolute left-3 top-3 rounded-full bg-[#00A650] px-3 py-1 text-xs font-medium text-white">
 Recomendado
 </span>
 )}
@@ -39,12 +39,12 @@ href={product.url}
 target="_blank"
 rel="noopener noreferrer"
 onClick={() => trackAffiliateClick({ product })}
-className="mt-auto inline-flex items-center justify-center rounded-xl bg-black py-3 text-sm font-medium text-white transition hover:bg-gray-800"
+className="mt-auto inline-flex items-center justify-center rounded-xl bg-[#3659FF] py-3 text-sm font-bold text-white transition hover:bg-gray-700"
 >
 Ver precio
 </a>
 <p className="mt-2 text-center text-[11px] text-gray-400">
-Enlace afiliado
+Enlace de distribuidor autorizado
 </p>
 </div>
 </article>
