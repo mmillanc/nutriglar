@@ -7,7 +7,7 @@ export default function Header() {
           Nutriglar Recomienda
         </h1>
         <p className="text-gray-600">
-          Productos seleccionados para una vida más saludable y activa.
+          Los mejores productos para ti <strong>Las compras se realizan con total seguridad y garantia en MERCADO LIBRE </strong>.
         </p>
       </div>
     </header>
