@@ -23,10 +23,6 @@ return (
 
 // =========================
 // products.js (ejemplo con badge)
-{product.recommended && (
-<span className="absolute ...">Recomendado</span>
-)}
-
 // =========================
 // Agregar opcionalmente:
 // recommended: true
