@@ -37,6 +37,17 @@ export default function App() {
                 />
               }
             />
+
+            <Route
+              path="/belleza"
+              element={
+                <CategoryPage
+                  category="belleza"
+                  title="Belleza y Cuidado personal"
+                  subtitle="Todo para tu bienestar diario"
+                />
+              }
+            />
           </Routes>
         </main>
 

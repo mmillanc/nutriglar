@@ -1,7 +1,7 @@
 const categories = [
   { id: "nutricion", label: "Nutrición" },
   { id: "equipamento", label: "Equipamento deportivo" },
-  { id: "ejercicio", label: "Ejercicio" },
+  { id: "belleza", label: "Belleza y Cuidado personal" },
   { id: "accesorios", label: "Accesorios" }
 ];
 

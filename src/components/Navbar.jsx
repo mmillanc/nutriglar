@@ -60,14 +60,14 @@ export default function Navbar() {
           </NavLink>
 
           <NavLink
-            to="/deporte"
+            to="/belleza"
             className={({ isActive }) =>
               `${linkBase} ${
                 isActive ? 'bg-[#70E03D] text-white' : 'text-gray-600 hover:bg-gray-100'
               }`
             }
           >
-            Deporte
+            Belleza y Cuidado personal
           </NavLink>
 
           {/* 🔵 CONTACTO externo */}
@@ -131,7 +131,7 @@ export default function Navbar() {
           </NavLink>
 
           <NavLink
-            to="/deporte"
+            to="/belleza"
             onClick={() => setOpen(false)}
             className={({ isActive }) =>
               `${linkBase} ${
@@ -139,7 +139,7 @@ export default function Navbar() {
               }`
             }
           >
-            Deporte
+            Belleza y Cuidado personal
           </NavLink>
 
           {/* 🔵 CONTACTO externo */}
