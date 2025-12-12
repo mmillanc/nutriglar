@@ -28,13 +28,22 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex gap-2 items-center">
+
+          {/* 🔵 INICIO externo */}
+          <a
+            href="https://www.nutriglar.cl/"
+            className="px-3 py-2 rounded text-sm font-medium text-gray-600 hover:bg-gray-100"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Inicio
+          </a>
+
           <NavLink
             to="/nutricion"
             className={({ isActive }) =>
               `${linkBase} ${
-                isActive
-                  ? 'bg-[#70E03D] text-white'
-                  : 'text-gray-600 hover:bg-gray-100'
+                isActive ? 'bg-[#70E03D] text-white' : 'text-gray-600 hover:bg-gray-100'
               }`
             }
           >
@@ -45,9 +54,7 @@ export default function Navbar() {
             to="/equipamento"
             className={({ isActive }) =>
               `${linkBase} ${
-                isActive
-                  ? 'bg-[#70E03D] text-white'
-                  : 'text-gray-600 hover:bg-gray-100'
+                isActive ? 'bg-[#70E03D] text-white' : 'text-gray-600 hover:bg-gray-100'
               }`
             }
           >
@@ -58,16 +65,20 @@ export default function Navbar() {
             to="/deporte"
             className={({ isActive }) =>
               `${linkBase} ${
-                isActive
-                  ? 'bg-[#70E03D] text-white'
-                  : 'text-gray-600 hover:bg-gray-100'
+                isActive ? 'bg-[#70E03D] text-white' : 'text-gray-600 hover:bg-gray-100'
               }`
             }
           >
             Deporte
           </NavLink>
 
-          <a className="btn ml-2" href="#contacto">
+          {/* 🔵 CONTACTO externo */}
+          <a
+            href="https://www.nutriglar.cl/contact"
+            className="btn ml-2"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Contacto
           </a>
         </nav>
@@ -85,10 +96,21 @@ export default function Navbar() {
       <div
         className={`
           md:hidden bg-white shadow transition-all duration-300 overflow-hidden
-          ${open ? "max-h-64" : "max-h-0"}
+          ${open ? "max-h-96" : "max-h-0"}
         `}
       >
         <nav className="flex flex-col p-4 gap-3 text-gray-800">
+
+          {/* 🔵 INICIO externo */}
+          <a
+            href="https://www.nutriglar.cl/"
+            onClick={() => setOpen(false)}
+            className="px-3 py-2 rounded text-sm font-medium text-gray-700 hover:bg-gray-100"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Inicio
+          </a>
 
           <NavLink
             to="/nutricion"
@@ -126,10 +148,13 @@ export default function Navbar() {
             Deporte
           </NavLink>
 
+          {/* 🔵 CONTACTO externo */}
           <a
-            href="#contacto"
+            href="https://www.nutriglar.cl/contact"
             onClick={() => setOpen(false)}
             className="px-3 py-2 rounded text-sm font-medium text-gray-700 hover:bg-gray-100"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Contacto
           </a>
