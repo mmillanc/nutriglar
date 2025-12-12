@@ -33,8 +33,6 @@ export default function Navbar() {
           <a
             href="https://www.nutriglar.cl/"
             className="px-3 py-2 rounded text-sm font-medium text-gray-600 hover:bg-gray-100"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Inicio
           </a>
@@ -76,8 +74,6 @@ export default function Navbar() {
           <a
             href="https://www.nutriglar.cl/contact"
             className="btn ml-2"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Contacto
           </a>
@@ -106,8 +102,6 @@ export default function Navbar() {
             href="https://www.nutriglar.cl/"
             onClick={() => setOpen(false)}
             className="px-3 py-2 rounded text-sm font-medium text-gray-700 hover:bg-gray-100"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Inicio
           </a>
@@ -153,8 +147,6 @@ export default function Navbar() {
             href="https://www.nutriglar.cl/contact"
             onClick={() => setOpen(false)}
             className="px-3 py-2 rounded text-sm font-medium text-gray-700 hover:bg-gray-100"
-            target="_blank"
-            rel="noopener noreferrer"
           >
             Contacto
           </a>
