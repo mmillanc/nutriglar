@@ -3,6 +3,8 @@ import Header from './components/Header'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import CategoryPage from './pages/CategoryPage'
+import ProductDetail from "./pages/ProductDetail"
+
 
 export default function App() {
   return (
@@ -15,6 +17,8 @@ export default function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Navigate to="/nutricion" replace />} />
+            <Route path="/producto/:slug" element={<ProductDetail />} />
+
 
             <Route
               path="/nutricion"
