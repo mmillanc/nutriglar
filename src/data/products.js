@@ -24,9 +24,20 @@ export const products = [
     id: 2,
     slug: "omega-3-dua-labs-800-epa-400-dha-120-capsulas-para-60-dias",
     name: "Omega 3 Düa Labs® 800 Epa 400 Dha 120 Cápsulas Para 60 Días",
-    description: "El Omega 3 de aceite de anchoveta del pacífico es una de las fuentes más puras de Omega 3, libre de metales pesados,",
+    description: "Omega 3 800 EPA|400 DHA 120 cápsulas Düa Labs Rinde 2 meses",
+    descriptionLong: ["El Omega 3 de aceite de anchoveta del pacífico es una de las fuentes más puras de Omega 3, libre de metales pesados, máxima concentración de EPA/DHA y siendo una fuente excepcional de ácidos grasos saludables. ",
+                      "Su función es apoyar tu salud cardioneurovascular, mejorar tu claridad mental, favorecer un estado de ánimo equilibrado y efectos antiinflamatorios potentes. ",
+                      "Compromiso de calidad Düa Labs. ",
+                      "En Düa Labs somos la primera marca chilena que realiza y publica sus análisis de laboratorio, trabajamos con estándares de calidad certificados, garantizando ingredientes de calidad, concentraciones efectivas y más porciones por envase para acompañarte por más tiempo. ",
+                      ],
     image: "/images/omega.webp",
     category: "nutricion",
+    benefits: [
+    "Mejora y fortalece la salud cardiovascular: El EPA y DHA reducen los triglicéridos en la sangre, ayudan a regular la presión arterial y mejoran la elasticidad de las arterias.",
+    "Favorece la función cerebral y memoria: El DHA es un componente estructural clave del cerebro, esencial para la memoria, la concentración y la salud cognitiva.",
+    "Mejora el estado de ánimo y combate el estrés regulando la producción de serotonina y dopamina",
+    "Apoya la salud ocular: el DHA forma parte de la retina, ayudando a mantener una visión clara y prevenir el daño ocular asociado con la edad."
+    ],
     url: "https://mercadolibre.com/sec/21bUJck",
     recommended: true
   },
@@ -35,8 +46,19 @@ export const products = [
     slug: "biocare-mindlinx-complex-16-billones-60-capsulas",
     name: "Biocare - Mindlinx Complex 16 Billones 60 Cápsulas",
     description: "Combinación única de probióticos y glutamina para favorecer la digestión y mantener la integridad de la pared intestinal.",
+    descriptionLong: ["Combinación única de probióticos y glutamina para favorecer la digestión y mantener la integridad de la pared intestinal. ",
+                      "Potencia garantizada de 16 mil millones de bacterias LAB4® y lactobacillus Rhamnosus por ingesta diaria recomendada (2 cápsulas). ",
+                      "Cepas resistentes a ácidos estomacales y biliares, con alta capacidad de adherencia y de uso seguro en humanos. ",
+                      "Hipoalergénico y sin derivados lácteos. Envasado al vacío para mantener su estabilidad. ",
+                      "Desarrollado especialmente para personas con dificultades en el comportamiento, aprendizaje y concentración. También, participa en la recuperación de la pared intestinal y ayuda a la digestión de proteínas, siendo de gran utilidad en personas con alergias e intolerancias, y/o con enfermedades inflamatorias del aparato digestivo."],
     image: "/images/Mindlinx.webp",
     category: "nutricion",
+    benefits: [
+    "Uso recomendado en niños, adolescentes y adultos.",
+    "Libre de fibra prebiótica (FOS), siendo apto para el tratamiento de SIBO",
+    "Apto para Embarazo, Lactancia, Veganos y Vegetarianos.",
+    "Nuestros productos son 100% naturales"
+    ],
     url: "https://mercadolibre.com/sec/1mHRqdY",
     recommended: true
   },
@@ -44,8 +66,17 @@ export const products = [
     slug: "omega-ultra-pure-150-caps-ns-sin-sabor",
     name: "Omega Ultra Pure 150 Caps, Ns Sin Sabor",
     description: "Omega 3 de alta pureza y concentración, aporta 600mg de Omega 3 por cápsula.",
+    descriptionLong: ["Omega 3 de alta pureza y concentración, aporta 600mg de Omega 3 por cápsula. ",
+                      "Complemento ideal para proteger y/o mejorar la salud cardiovascular y memoria. ",
+                      "Cuenta con certificación IFOS, la cual garantiza pureza, seguridad y calidad del producto. ",
+                      "Libre de metales pesados y contaminantes tipo PCB’s. ",
+                      ],
     image: "/images/omega3UP.webp",
     category: "nutricion",
+    benefits: [
+    "Libre de gluten",
+    "Mejora la salud cardiovascular",
+    ],
     url: "https://mercadolibre.com/sec/2UX8roK",
     recommended: true
   },
@@ -53,8 +84,18 @@ export const products = [
     slug: "prostar-whey-100-proteina-539-lb-ultimate-nutrition",
     name: "Prostar Whey 100% Proteína 5.39 Lb Ultimate Nutrition",
     description: "100% Whey. Disfrute de 25 gramos por porción de nuestra mezcla de péptidos, concentrado y aislado de proteína de suero de primera calidad.",
+    descriptionLong: ["100% Whey garantiza una calidad incomparable en esta proteína en polvo. ",
+                      "Disfrute de 25 gramos por porción de nuestra mezcla de péptidos, concentrado y aislado de proteína de suero de primera calidad. ",
+                      "Diseñado para mezclarse instantáneamente, cada batido o batido ofrece una combinación perfecta de sabor y nutrición. ",
+                      "Tome de 1 a 3 porciones al día. Para un crecimiento muscular máximo, tómalo antes y después de tu entrenamiento. ",
+                      "Mezcle 1 cucharada (30 gramos) de Ultimate Nutrition Prostar® 100% Whey Protein en 8 oz de agua o leche en una licuadora."],
     image: "/images/prostar.webp",
     category: "nutricion",
+    benefits: [
+    "Mejora el crecimiento muscular",
+    "Favorece la recuperación post entrenamiento",
+    "Aumenta la fuerza y energía"
+    ],
     url: "https://mercadolibre.com/sec/2Kj6zoW",
     recommended: true
   },
@@ -62,8 +103,19 @@ export const products = [
     slug: "dymatize-proteina-de-iso-100-sabor-vainilla",
     name: "Dymatize Proteína de ISO-100 sabor vainilla",
     description: "ISO 100 tiene todo lo que nuestro cuerpo necesita para construir y mantener la masa muscular de manera efectiva.",
+    descriptionLong: ["ISO 100 tiene todo lo que nuestro cuerpo necesita para construir y mantener la masa muscular de manera efectiva. ",
+                      "La proteína de suero se ha hidrolizado para un uso más eficiente en el cuerpo, debido a su estructura más pequeña ofrece la reposición de aminoácidos de manera rápida. ",
+                      "Cada porción de ISO 100 proporciona 25 gramos de proteína hidrolizada de suero 100% aislado, con menos de un gramo de azúcar y grasa. ",
+                      "Además entrega 5,5 gramos de aminoácidos de cadena ramificada (BCAA), que son utilizados por el cuerpo durante el entrenamiento intenso. ",
+                      "Estos nutrientes son importantes para favorecer el crecimiento muscular y la recuperación post entrenamiento."],
     image: "/images/dymatize.webp",
     category: "nutricion",
+    benefits: [
+    "Aminoácidos esenciales para mejorar el rendimiento deportivo.",
+    "Favorece la recuperación muscular post entrenamiento.",
+    "Libre de gluten para una mayor accesibilidad.",
+    "Apto para personas en período de lactancia y embarazo"
+    ],
     url: "https://mercadolibre.com/sec/2RLhwNv",
     recommended: true
   },
@@ -71,8 +123,26 @@ export const products = [
     slug: "wild-protein-whey-187-kg-chocolate",
     name: "Wild Protein Whey 1,87 Kg - Chocolate",
     description: "Wild Protein Whey, la primera proteína certificada por el INTA en Chile.",
+    descriptionLong: `Wild Protein Whey, la primera proteína certificada por el INTA en Chile. Para todos los que buscan aumentar su consumo de proteínas con una opción rica, práctica y de calidad. Esta certificación garantiza un perfil completo de aminoácidos esenciales y una alta digestibilidad, lo que permite que el cuerpo utilice al máximo sus proteínas.
+
+
+¿QUÉ HAY EN CADA SCOOP?
+
+25 g de proteína concentrada de suero de leche (whey)
+5 g de BCAA
+2,6 g de leucina
+Sin azúcar añadida
+Sin sellos
+Fácil disolución y alta versatilidad
+Análisis de digestibilidad proteica del 100%`,
     image: "/images/wildprotein.webp",
     category: "nutricion",
+    benefits: [
+    "Crecimiento y reparación muscular.",
+    "Previene la recuperación muscular.",
+    "Favorece el rendimiento.",
+    "Aumenta la saciedad. "
+    ],
     url: "https://mercadolibre.com/sec/2ME5NtD",
     recommended: true
   },
@@ -80,8 +150,21 @@ export const products = [
     slug: "dymatize-whey-iso-100-23kg-en-polvo-sabor-fudge-brownie",
     name: "Dymatize Whey ISO-100 2.3kg en Polvo Sabor Fudge Brownie",
     description: "ISO-100® está diseñada para deportistas exigentes, proporcionando lo necesario para construir y mantener masa muscular de manera efectiva.",
+    descriptionLong: `ISO-100® está diseñada para deportistas exigentes, proporcionando lo necesario para construir y mantener masa muscular de manera efectiva. La proteína de suero se ha hidrolizado para un uso más eficiente, ofreciendo reposición rápida de aminoácidos debido a su estructura pequeña. Disponible en envases de 1.6 lbs (744g), 3 lbs (1.395g) y 5 lbs (2.270g) en sabores Chocolate, galleta y crema. Se recomienda consumir antes de un entrenamiento intenso mezclando 3 cucharadas con 350 ml de agua fría y consumir 2 veces al día.
+
+COMPONENTES:
+Cada porción de ISO-100® aporta 25 gramos de proteína hidrolizada de suero 100% aislado, con menos de un gramo de azúcar y grasa. Incluye 5,5 gramos de aminoácidos de cadena ramificada (BCAA), con 2,7 gramos de BCAA L-leucina.
+
+PRECAUCIONES
+Contiene leche y soya.`,
     image: "/images/dymatizebrownie.webp",
     category: "nutricion",
+    benefits: [
+    "Aminoácidos esenciales para mejorar el rendimiento deportivo.",
+    "Favorece la recuperación muscular post entrenamiento.",
+    "Libre de gluten para una mayor accesibilidad.",
+    "Apto para personas en período de lactancia y embarazo"
+    ],
     url: "https://mercadolibre.com/sec/1RfkJZB",
     recommended: true
   },
@@ -89,8 +172,29 @@ export const products = [
     slug: "magmax-4-magnesios-citrato-l-treonato-taurato-bisglicinato-sabor-sin-sabor",
     name: "Magmax 4 Magnesios Citrato L Treonato Taurato Bisglicinato Sabor Sin Sabor",
     description: "Promueve la salud cardiovascular, ósea y muscular, además de ayudar a mantener un sistema nervioso saludable.",
+    descriptionLong:  `¿Para qué Enfermedades o Condiciones se prescribe este Medicamento?
+Su formulación está especialmente hecha para un apoyo integral. Promueve la salud cardiovascular, ósea y muscular, además de ayudar a mantener un sistema nervioso saludable, favoreciendo tanto en la actividad como en la relajación muscular.
+
+¿Cómo debo usar este Producto? (Posología)
+Ingerir con agua, se recomienda ingerir con alimentos. Consumir 1 porción (2 comprimidos) al día, no consumir más de una porción al día.
+
+Presentación (Forma Farmacéutica y Dosis)
+Frasco de aluminio aprobado por la FDA, que contiene 60 comprimidos.
+
+300mg de Magnesio elemental por comprimido.
+L-Treonato de Magnesio 60mg.
+Citrato de magnesio 150mg.
+Bisglicinato de magnesio 50mg.
+Taurato de magnesio 40mg.
+`,
     image: "/images/magma.webp",
     category: "nutricion",
+    benefits: [
+    "L-Treonato de Magnesio 60mg para salud cognitiva.",
+    "Citrato de magnesio 150mg para soporte muscular.",
+    "Bisglicinato de magnesio 50mg para mejor absorción.",
+    "Taurato de magnesio 40mg para salud cardiovascular."
+    ],
     url: "https://mercadolibre.com/sec/1RNeDfY",
     recommended: true
   },
@@ -98,8 +202,15 @@ export const products = [
     slug: "colageno-hidrolizado-artrosome-vitamina-c-y-d-30-sobres-sin-sabor",
     name: "Colágeno Hidrolizado Artrosome + Vitamina C Y D, 30 Sobres Sin Sabor",
     description: "Artrosome C+D Colágeno Hidrolizado 30 Sobres, Suplemento alimentario en polvo a base de colágeno hidrolizado 10.000 mg.",
+    descriptionLong: `Artrosome C+D Colágeno Hidrolizado 30 Sobres. Suplemento alimentario en polvo a base de colágeno hidrolizado 10.000 mg. Excelente fuente de Vitamina C y D. Sin azúcares añadidos.
+ Los suplementos que contienen colágeno hidrolizado contribuyen a mantener y recuperar la salud articular; por eso se recomiendan a personas que, por su edad o actividad física, tienen un mayor riesgo de presentar daño en las articulaciones.`,
     image: "/images/artrosome.webp",
     category: "nutricion",
+    benefits: [
+    "Estimula la producción de colágeno en el organismo",
+    "Ayuda a mejorar el aspecto de la piel",
+    "Fortalece las articulaciones, las uñas, los huesos y el cabello"
+    ],
     url: "https://mercadolibre.com/sec/1WxbvbL",
     recommended: true
   },
@@ -107,8 +218,19 @@ export const products = [
     slug: "biocare-vitamina-d3-k2-15ml-sistema-inmune",
     name: "Biocare - Vitamina D3 + K2 15ml (sistema Inmune)",
     description: "Nutrisorb D3K2 líquido proporciona vitamina D3 y vitamina K2 en una base simple de triglicéridos de cadena media.",
+    descriptionLong: ["Creatine 100% Pure Monohydrate de Foodtech es un suplemento alimenticio a base de monohidrato de creatina. ",
+                      "Este producto está diseñado para mejorar el rendimiento físico, prevenir lesiones musculares y ayudar en la recuperación de los músculos después de entrenamientos intensos. ",
+                      "La creatina monohidratada es apreciada por los deportistas debido a su rápida absorción y acción en la masa muscular. ",
+                      "Este suplemento puede mejorar los resultados físicos, colaborar con el crecimiento muscular y aumentar la fuerza y energía durante el ejercicio. ",
+                      "Para disfrutar de todos sus beneficios, solo debes mezclar 1 cucharadita de té o una medida (5g) con 200ml de agua, agitar y consumir."],
     image: "/images/nutrisorb.webp",
     category: "nutricion",
+    benefits: [
+    "Mejora el rendimiento físico",
+    "Previene las lesiones musculares",
+    "Favorece el crecimiento muscular",
+    "Aumenta la fuerza y energía"
+    ],
     url: "https://mercadolibre.com/sec/2rEJUp5",
     recommended: true
   },
@@ -116,8 +238,19 @@ export const products = [
     slug: "creatine-basics-nutrition-creatina-100-creapure-sabor-sin-sabor",
     name: "Creatine+ Basics Nutrition - Creatina 100% Creapure® Sabor Sin sabor",
     description: "La creatina monohidratada más pura del mundo, fabricada en Alemania y respaldada por ciencia. Basics Nutrition trae a Chile la creatina Creapure® con la mayor pureza y biodisponibilidad.",
+    descriptionLong: ["Creatine 100% Pure Monohydrate de Foodtech es un suplemento alimenticio a base de monohidrato de creatina. ",
+                      "Este producto está diseñado para mejorar el rendimiento físico, prevenir lesiones musculares y ayudar en la recuperación de los músculos después de entrenamientos intensos. ",
+                      "La creatina monohidratada es apreciada por los deportistas debido a su rápida absorción y acción en la masa muscular. ",
+                      "Este suplemento puede mejorar los resultados físicos, colaborar con el crecimiento muscular y aumentar la fuerza y energía durante el ejercicio. ",
+                      "Para disfrutar de todos sus beneficios, solo debes mezclar 1 cucharadita de té o una medida (5g) con 200ml de agua, agitar y consumir."],
     image: "/images/creatina1.webp",
     category: "nutricion",
+    benefits: [
+    "Mejora el rendimiento físico",
+    "Previene las lesiones musculares",
+    "Favorece el crecimiento muscular",
+    "Aumenta la fuerza y energía"
+    ],
     url: "https://mercadolibre.com/sec/1zJw6HG",
     recommended: true
   },
@@ -125,8 +258,19 @@ export const products = [
     slug: "suplemento-en-polvo-winkler-nutrition-whey-pro-win-proteinas-sabor-capuccino-en-pote-de-1kg",
     name: "Suplemento en polvo Winkler Nutrition Whey Pro Win proteínas sabor capuccino en pote de 1kg",
     description: "WHEY PRO WIN es 100% suero de leche, incluyendo concentrados, aislados e hidrolizados. Contribuye a la recuperación muscular óptima post-entrenamiento.",
+    descriptionLong: ["Creatine 100% Pure Monohydrate de Foodtech es un suplemento alimenticio a base de monohidrato de creatina. ",
+                      "Este producto está diseñado para mejorar el rendimiento físico, prevenir lesiones musculares y ayudar en la recuperación de los músculos después de entrenamientos intensos. ",
+                      "La creatina monohidratada es apreciada por los deportistas debido a su rápida absorción y acción en la masa muscular. ",
+                      "Este suplemento puede mejorar los resultados físicos, colaborar con el crecimiento muscular y aumentar la fuerza y energía durante el ejercicio. ",
+                      "Para disfrutar de todos sus beneficios, solo debes mezclar 1 cucharadita de té o una medida (5g) con 200ml de agua, agitar y consumir."],
     image: "/images/w1whey.webp",
     category: "nutricion",
+    benefits: [
+    "Mejora el rendimiento físico",
+    "Previene las lesiones musculares",
+    "Favorece el crecimiento muscular",
+    "Aumenta la fuerza y energía"
+    ],
     url: "https://mercadolibre.com/sec/2nZ2SPN",
     recommended: true
   },
