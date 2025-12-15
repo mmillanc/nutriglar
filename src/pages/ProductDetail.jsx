@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import { products } from "../data/products"
+import { trackAffiliateClick } from '../utils/trackAffiliateClick'
 
 export default function ProductDetail() {
   const { slug } = useParams()
@@ -12,9 +13,9 @@ export default function ProductDetail() {
 
   return (
     <section className="max-w-4xl mx-auto px-4 py-10">
-      
+
       <div className="grid md:grid-cols-2 gap-8">
-        
+
         <img
           src={product.image}
           alt={product.name}
@@ -37,13 +38,15 @@ export default function ProductDetail() {
           </ul>
 
           <a
-            href={product.url}
-            target="_blank"
-            rel="nofollow sponsored"
-            className="inline-block bg-black text-white px-6 py-3 rounded-xl font-medium hover:bg-gray-800 transition"
+          href={product.url}
+          target="_blank"
+          rel="nofollow sponsored"
+          onClick={() => trackAffiliateClick({ product })}
+          className="inline-block bg-black text-white px-6 py-3 rounded-xl font-medium hover:bg-gray-800 transition"
           >
-            Ver producto en MercadoLibre
+          Ver producto en MercadoLibre
           </a>
+
 
           <p className="mt-4 text-xs text-gray-500">
             * Enlace afiliado. Podemos recibir comisión sin costo adicional para ti.

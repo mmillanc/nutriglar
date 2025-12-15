@@ -1,4 +1,5 @@
-import { trackAffiliateClick } from '../utils/trackAffiliateClick'
+import { Link } from "react-router-dom"
+
 export function ProductCard({ product }) {
 return (
 <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
@@ -34,15 +35,13 @@ Recomendado
 
 
 {/* CTA */}
-<a
-href={product.url}
-target="_blank"
-rel="noopener noreferrer"
-onClick={() => trackAffiliateClick({ product })}
-className="mt-auto inline-flex items-center justify-center rounded-xl bg-[#3659FF] py-3 text-sm font-bold text-white transition hover:bg-gray-700"
+<Link
+  to={`/producto/${product.slug}`}
+  className="mt-auto inline-flex items-center justify-center rounded-xl bg-[#3659FF] py-3 text-sm font-bold text-white transition hover:bg-gray-700"
 >
-Ver precio
-</a>
+  Ver detalles
+</Link>
+
 <p className="mt-2 text-center text-[11px] text-gray-400">
 Enlace de distribuidor autorizado
 </p>
