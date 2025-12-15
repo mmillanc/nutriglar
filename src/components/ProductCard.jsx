@@ -36,10 +36,10 @@ Recomendado
 
 {/* CTA */}
 <Link
-  to={`/producto/${product.slug}`}
-  className="mt-auto inline-flex items-center justify-center rounded-xl bg-[#3659FF] py-3 text-sm font-bold text-white transition hover:bg-gray-700"
+to={`/producto/${product.slug}`}
+className="mt-auto inline-flex items-center justify-center rounded-xl bg-[#3659FF] py-3 text-sm font-bold text-white transition hover:bg-gray-700"
 >
-  Ver detalles
+Ver detalles
 </Link>
 
 <p className="mt-2 text-center text-[11px] text-gray-400">

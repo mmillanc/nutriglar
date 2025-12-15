@@ -3,11 +3,18 @@ export const products = [
     id: 1,
     slug: "creatina-100-pure-monohydrate-1kg-foodtech-sin-sabor",
     name: "Creatine 100% pure monohydrate 1kg Foodtech sin sabor",
-    description: `Monohidrato de creatina diseñado para mejorar el rendimiento físico,
+    description: "Creatina de alta pureza para rendimiento deportivo.",
+    descriptionLong: `Monohidrato de creatina diseñado para mejorar el rendimiento físico,
 prevenir lesiones musculares y ayudar en la recuperación de los músculos después de
 entrenamientos intensos`,
-    image: "./images/creatina.webp",
+    image: "/images/creatina.webp",
     category: "nutricion",
+      benefits: [
+    "Aumenta la fuerza y potencia",
+    "Mejora el rendimiento deportivo",
+    "Apoya la recuperación muscular",
+    "Alta pureza y absorción"
+    ],
     url: "https://mercadolibre.com/sec/2juCgys",
     recommended: true
   },

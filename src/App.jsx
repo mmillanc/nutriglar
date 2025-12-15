@@ -17,6 +17,7 @@ export default function App() {
         <main className="flex-1">
           <Routes>
             <Route path="/" element={<Navigate to="/nutricion" replace />} />
+
             <Route path="/producto/:slug" element={<ProductDetail />} />
 
 
