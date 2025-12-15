@@ -4,16 +4,18 @@ export const products = [
     slug: "creatina-100-pure-monohydrate-1kg-foodtech-sin-sabor",
     name: "Creatine 100% pure monohydrate 1kg Foodtech sin sabor",
     description: "Creatina de alta pureza para rendimiento deportivo.",
-    descriptionLong: `Monohidrato de creatina diseñado para mejorar el rendimiento físico,
-prevenir lesiones musculares y ayudar en la recuperación de los músculos después de
-entrenamientos intensos`,
+    descriptionLong: ["Creatine 100% Pure Monohydrate de Foodtech es un suplemento alimenticio a base de monohidrato de creatina. ",
+                      "Este producto está diseñado para mejorar el rendimiento físico, prevenir lesiones musculares y ayudar en la recuperación de los músculos después de entrenamientos intensos. ",
+                      "La creatina monohidratada es apreciada por los deportistas debido a su rápida absorción y acción en la masa muscular. ",
+                      "Este suplemento puede mejorar los resultados físicos, colaborar con el crecimiento muscular y aumentar la fuerza y energía durante el ejercicio. ",
+                      "Para disfrutar de todos sus beneficios, solo debes mezclar 1 cucharadita de té o una medida (5g) con 200ml de agua, agitar y consumir."],
     image: "/images/creatina.webp",
     category: "nutricion",
       benefits: [
-    "Aumenta la fuerza y potencia",
-    "Mejora el rendimiento deportivo",
-    "Apoya la recuperación muscular",
-    "Alta pureza y absorción"
+    "Mejora el rendimiento físico",
+    "Previene las lesiones musculares",
+    "Favorece el crecimiento muscular",
+    "Aumenta la fuerza y energía"
     ],
     url: "https://mercadolibre.com/sec/2juCgys",
     recommended: true

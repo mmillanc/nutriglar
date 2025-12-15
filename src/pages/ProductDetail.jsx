@@ -30,7 +30,7 @@ export default function ProductDetail() {
     <main className="max-w-6xl mx-auto px-4 py-8">
 
       {/* Breadcrumb */}
-      <nav className="mb-4 text-xs text-gray-500">
+      <nav className="mb-4 text-xs text-gray-500 ">
         <Link to="/" className="hover:underline">Inicio</Link> /{" "}
         <Link to={`/${product.category}`} className="hover:underline capitalize">
           {product.category}
@@ -39,7 +39,7 @@ export default function ProductDetail() {
       </nav>
 
       {/* Producto */}
-      <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#FEFF51]">
 
         {/* Imagen */}
         <div className="flex items-center justify-center">
@@ -52,11 +52,11 @@ export default function ProductDetail() {
 
         {/* Info */}
         <div>
-          <h1 className="text-2xl font-bold mb-3">
+          <h1 className="text-2xl font-bold mb-3 mt-8 mr-8">
             {product.name}
           </h1>
 
-          <p className="text-sm text-gray-700 mb-6">
+          <p className="text-sm text-black-700 mb-6 mr-8">
             {product.descriptionLong || product.description}
           </p>
 
