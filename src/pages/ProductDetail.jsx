@@ -56,9 +56,20 @@ export default function ProductDetail() {
             {product.name}
           </h1>
 
-          <p className="text-sm text-black-700 mb-6 mr-8">
-            {product.descriptionLong || product.description}
-          </p>
+          <div className="text-sm text-black-700 mb-6 mr-8 space-y-3">
+            {(product.descriptionLong || product.description)
+            .split('\n')
+            .filter(p => p.trim() !== '')
+            .map((line, i) => (
+              line.endsWith(':') ? (
+                <h3 key={i} className="font-semibold mt-4">
+                  {line}
+                </h3>
+              ) : (
+                <p key={i}>{line}</p>
+              )
+              ))}
+          </div>
 
           {/* Beneficios (opcional) */}
           {Array.isArray(product.benefits) && (

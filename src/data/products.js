@@ -1003,8 +1003,15 @@ El Sérum Concentrado MELA B3 es un tratamiento específico formulado para comba
     id: 100,
     name: "Proteína Vegetal X",
     description: "Saciedad y digestión ligera",
+    descriptionLong: ``,
     image: "/img/proteina.jpg",
     category: "suplementos",
+    benefits: [
+    "Reducción de Manchas: Disminuye la intensidad y el tamaño de las manchas oscuras en la piel.",
+    "Prevención de Reaparición: Su fórmula avanzada evita que las manchas regresen, garantizando una piel más uniforme a largo plazo.",
+    "Efecto Calmante e Iluminador: La combinación de Melasyl y Niacinamida ayuda a calmar la piel y mejorar su luminosidad.",
+    "Apto para Todo Tipo de Piel: Su textura ligera y de rápida absorción lo hace adecuado para pieles normales, mixtas y sensibles.",
+    ],
     url: "LINK_AFILIADO",
     recommended: true,
     active: true
