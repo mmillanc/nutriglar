@@ -8,7 +8,7 @@ useSEO({
     description: `Explora ${title.toLowerCase()} recomendados. Productos afiliados seleccionados para mejorar tu bienestar.`
 })
 
-const filtered = products.filter(p => p.category === category)
+const filtered = products.filter(p => p.category === category && p.active)
 
 return (
     <section className="mx-auto max-w-7xl px-4 py-10">

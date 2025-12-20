@@ -12,7 +12,12 @@ loading="lazy"
 className="h-auto w-1/2 object-cover transition-transform duration-300 group-hover:scale-105"
 />
 
-
+{/* Badge NO disponible */}
+{!product.active && (
+<span className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded">
+    No disponible
+    </span>
+)}
 {/* Badge recomendado */}
 {product.recommended && (
 <span className="absolute left-3 top-3 rounded-full bg-[#00A650] px-3 py-1 text-xs font-medium text-white">

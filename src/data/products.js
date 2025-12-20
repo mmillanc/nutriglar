@@ -18,7 +18,8 @@ export const products = [
     "Aumenta la fuerza y energía"
     ],
     url: "https://mercadolibre.com/sec/2juCgys",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {
     id: 2,
@@ -39,7 +40,8 @@ export const products = [
     "Apoya la salud ocular: el DHA forma parte de la retina, ayudando a mantener una visión clara y prevenir el daño ocular asociado con la edad."
     ],
     url: "https://mercadolibre.com/sec/21bUJck",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {
     id: 3,
@@ -60,7 +62,8 @@ export const products = [
     "Nuestros productos son 100% naturales"
     ],
     url: "https://mercadolibre.com/sec/1mHRqdY",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 4,
     slug: "omega-ultra-pure-150-caps-ns-sin-sabor",
@@ -78,7 +81,8 @@ export const products = [
     "Mejora la salud cardiovascular",
     ],
     url: "https://mercadolibre.com/sec/2UX8roK",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 5,
     slug: "prostar-whey-100-proteina-539-lb-ultimate-nutrition",
@@ -97,7 +101,8 @@ export const products = [
     "Aumenta la fuerza y energía"
     ],
     url: "https://mercadolibre.com/sec/2Kj6zoW",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 6,
     slug: "dymatize-proteina-de-iso-100-sabor-vainilla",
@@ -117,7 +122,8 @@ export const products = [
     "Apto para personas en período de lactancia y embarazo"
     ],
     url: "https://mercadolibre.com/sec/2RLhwNv",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 7,
     slug: "wild-protein-whey-187-kg-chocolate",
@@ -144,7 +150,8 @@ Análisis de digestibilidad proteica del 100%`,
     "Aumenta la saciedad. "
     ],
     url: "https://mercadolibre.com/sec/2ME5NtD",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 8,
     slug: "dymatize-whey-iso-100-23kg-en-polvo-sabor-fudge-brownie",
@@ -166,7 +173,8 @@ Contiene leche y soya.`,
     "Apto para personas en período de lactancia y embarazo"
     ],
     url: "https://mercadolibre.com/sec/1RfkJZB",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 9,
     slug: "magmax-4-magnesios-citrato-l-treonato-taurato-bisglicinato-sabor-sin-sabor",
@@ -196,7 +204,8 @@ Taurato de magnesio 40mg.
     "Taurato de magnesio 40mg para salud cardiovascular."
     ],
     url: "https://mercadolibre.com/sec/1RNeDfY",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 10,
     slug: "colageno-hidrolizado-artrosome-vitamina-c-y-d-30-sobres-sin-sabor",
@@ -212,7 +221,8 @@ Taurato de magnesio 40mg.
     "Fortalece las articulaciones, las uñas, los huesos y el cabello"
     ],
     url: "https://mercadolibre.com/sec/1WxbvbL",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 11,
     slug: "biocare-vitamina-d3-k2-15ml-sistema-inmune",
@@ -240,7 +250,8 @@ Vitamina D3 = 1000UI – 25ug , Vitamina K2 75ug
     "Mantención de la función y estructura muscular"
     ],
     url: "https://mercadolibre.com/sec/2rEJUp5",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 12,
     slug: "creatine-basics-nutrition-creatina-100-creapure-sabor-sin-sabor",
@@ -265,7 +276,8 @@ Compra con confianza: CREATINE+ asegura rendimiento y salud, con el respaldo de 
     "Mejora la concentración y capacidad cognitiva."
     ],
     url: "https://mercadolibre.com/sec/1zJw6HG",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 13,
     slug: "suplemento-en-polvo-winkler-nutrition-whey-pro-win-proteinas-sabor-capuccino-en-pote-de-1kg",
@@ -289,7 +301,36 @@ Sugerencias de uso: Ingerir posterior a la actividad física.
     "Aumenta la fuerza y energía"
     ],
     url: "https://mercadolibre.com/sec/2nZ2SPN",
-    recommended: true
+    recommended: true,
+    active: true
+  },
+  {id: 14,
+    slug: "proteína-de-suero-foodtech-100-women-frutos-del-bosque-con-biotina-y-colageno-907g-en-polvo",
+    name: "Proteína de Suero Foodtech 100% Women Frutos del Bosque con Biotina y Colágeno 907g en Polvo",
+    description: "100% Women Whey Protein + Biotin & Collagen la proteína favorita de la mujer ahora más completa, gracias a su nueva y mejorada fórmula.",
+    descriptionLong: `100% Women Whey Protein + Biotin & Collagen la proteína favorita de la mujer ahora más completa, gracias a su nueva y mejorada fórmula que te entrega una proteína concentrada de suero de calidad, enriquecida con biotina y colágeno. En cada batido nutrirás tu cuerpo con toda la tecnología que Foodtech te entrega.
+
+Instrucciones de uso:
+
+Disolver 1 medida dosificadora en 250 ml de agua fría o líquido a gusto, agitar y consumir inmediatamente.
+
+Precauciones
+
+“ALIMENTO PARA DEPORTISTAS ALTO EN PROTEÍNAS CON ADICIÓN DE BIOTINA”.
+
+NO RECOMENDABLE PARA MENORES DE 15 AÑOS, EN EMBARAZO NI LACTANCIA.
+`,
+    image: "/images/womenwhey.webp",
+    category: "nutricion",
+    benefits: [
+    "Contiene proteínas concentradas de suero.",
+    "Enriquecida con biotina y colágeno.",
+    "Aporta 22g de proteínas por porción.",
+    "No contiene azúcares añadidos."
+    ],
+    url: "https://mercadolibre.com/sec/2eY6YXo",
+    recommended: true,
+    active: true
   },
   {id: 1,
     slug: "set-mancuernas-y-barra-unibles-15kg-fitness-pesas-ajustables-overfit",
@@ -323,7 +364,8 @@ Ahorra espacio en tu hogar, reemplazando varios equipos por un solo set. `,
     "Ahora es posible entrenar de forma económica, práctica y sin excusas."
     ],
     url: "https://mercadolibre.com/sec/2noBwDC",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 2,
     slug: "trotadora-tm40-lite-ten-series-xmas-edition",
@@ -341,7 +383,8 @@ image: "/images/trotadora.webp",
     "Soportando usuarios de hasta 100 kg.",
     ],
     url: "https://mercadolibre.com/sec/1pbUn8Y",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 3,
     slug: "reloj-smartwatch-xiaomi-band-10-172-amoled-bluetooth-resistencia-5atm-midnight-black",
@@ -380,7 +423,8 @@ La nueva XIAOMI Band 10 te sorprende con una pantalla AMOLED de 1.72" que ofrece
     "Resistente al agua.",
     ],
     url: "https://mercadolibre.com/sec/2QVGW9e",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 4,
     slug: "zapatillas-adidas-casual-cloudfoam-comfy-hombre-ih2973",
@@ -406,7 +450,8 @@ Detalles
     image: "/images/adidascloud.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1Sgxaeb",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 5,
     slug: "carpa-hexagonal-automatica-camping-6-personas-220x264x150-beige",
@@ -427,7 +472,8 @@ Dimensiones montado: 240x280x160 cm`,
     image: "/images/carpa.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/27k7ZC8",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 6,
     slug: "bicicleta-aro-16-infantil-con-ruedas-de-aprendizaje-rosa-chicle-16",
@@ -439,7 +485,8 @@ Garantía de fábrica: 1 meses`,
     image: "/images/biciniña.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/28tSqjc",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 7,
     slug: "bicicleta-bianchi-freestyle-sport-bmx-tamaño-del-cuadro-talla-unica-rodado-20-color-gris-plata",
@@ -451,7 +498,8 @@ Garantía de fábrica: 1 meses`,
     image: "/images/biciniño.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1emsnmg",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 8,
     slug: "bicicleta-oxford-infantil-spine-bmx-aro-20-serie-2025-color-verde-tamaño-del-cuadro-tamaño-único",
@@ -468,7 +516,8 @@ Peso: 13.55kg.`,
     image: "/images/bicioxford.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/2ord7za",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 9,
     slug: "zapatillas-galaxy-6-gw3848-adidas",
@@ -480,7 +529,8 @@ Este producto, hecho con una serie de materiales reciclados, cuenta con un exter
     image: "/images/adidasgalaxy.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/2zTFNZ3",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 10,
     slug: "zapatillas-duramo-sl-20-gw8342-adidas",
@@ -492,7 +542,8 @@ Hechas con una serie de materiales reciclados, su exterior incorpora al menos un
     image: "/images/adidasduramo.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1S4b3Q8",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 11,
     slug: "pared-electronica-de-boxeo-ejercicio-digital-guantes-infantil",
@@ -515,7 +566,8 @@ incluye cable usb`,
     image: "/images/boxpared.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1EyNWxF",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 12,
     slug: "zapatillas-bsketball-unisex-lckdown7-negro",
@@ -537,7 +589,8 @@ incluye cable usb`,
     image: "/images/ld7.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/21wX65e",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 13,
     slug: "mancuerna-hexagonal-10kg-par-set-x2-pesas-pvc-20kg-overfit-color-gris",
@@ -564,7 +617,8 @@ Su diseño facilita el almacenamiento eficiente, permitiendo un orden óptimo en
     "Combina ejercicios y entrena tu cuerpo completo con la máxima seguridad y comodidad.",
     ],
     url: "https://mercadolibre.com/sec/32Cu685",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 14,
     slug: "termo-stanley-adventure-to-go-1-litro-con-tapon-cebador-frost",
@@ -588,7 +642,8 @@ Características:
     image: "/images/stanley2.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/2mgZPhb",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 15,
     slug: "banco-multifuncional-magnux-pesas-reclinable-predicador-multiposicion-graduable",
@@ -606,7 +661,8 @@ Diseñado para brindarte comodidad y durabilidad, este banco cuenta con cojiner�
     image: "/images/bancomagnux.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1ZijC2x",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 16,
     slug: "set-mancuernas-ajustables-20kg-importacion-con-barra-y-discos-negro",
@@ -629,7 +685,8 @@ Puedes ajustar los discos según el peso que necesites. Los discos están hechos
     image: "/images/pesas2.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1D2nnAR",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 17,
     slug: "anillas-olimpicas-fitness-calistenia-correa-+-hebillas-eshopangie",
@@ -649,7 +706,8 @@ Contenido del paquete:
     image: "/images/anillas.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1y5iZ8s",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 18,
     slug: "zapatilla-charged-assert-10-hombre-negro-under-armour",
@@ -664,7 +722,8 @@ Contenido del paquete:
     image: "/images/charger.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/2MFnrzP",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 19,
     slug: "short-secado-rapido-hombre-deportivo-upf50",
@@ -679,7 +738,8 @@ Contenido del paquete:
     image: "/images/short.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/2HL2Hdi",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 20,
     slug: "set-mancuernas-barra-ajustables-20-kg-3-en-1-color-rosa-chicle",
@@ -695,7 +755,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/pesasrosa.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/2me6RWj",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 21,
     slug: "toalla-baño-viaje-de-microfibra-de-secado-rápido-3-pcs",
@@ -715,7 +776,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/toallamicrofibra.webp",
     category: "equipamento",
     url: "https://mercadolibre.com/sec/1MGpG4u",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 1,
     slug:"serum-antiarrugas-pure-vitamin-c12-30ml-la-roche-posay-todo-tipo-de-piel-noche",
@@ -724,7 +786,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/serumlarocheamarillo.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/31zaQFQ",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 1,
     slug:"perfume-de-mujer-lattafa-yara-eau-de-parfum-100-ml",
@@ -733,7 +796,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/perfumelattafa.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/24zptYm",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 2,
     slug:"pack-revitalift-serum-acido-hialuronico-serum-retinol",
@@ -742,7 +806,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/revitalif.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/2HmsqHq",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 3,
     slug:"pack-cicatricure-pack-gold-lift-crema-dia-noche-serum",
@@ -751,7 +816,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/cicatricure.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/2FF2Rjp",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 4,
     slug:"perfume-lbel-bleu-intense-de-100-ml-edt-para-hombre-herbales-fresco-de-larga-duracion",
@@ -760,7 +826,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/bluehombre.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/1571XDM",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 5,
     slug:"protector-solar-corporal-para-niños-fps-50-eucerin-250-m",
@@ -769,7 +836,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/protectoreucerin.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/1Z3T4gL",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 6,
     slug:"gel-limpiador-espumoso-473-ml-tipo-de-piel-normal-a-grasa",
@@ -778,7 +846,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/cerave.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/2xRCWBG",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {id: 7,
     slug:"serum-concentrado-mela-b3-la-roche-posay-antimanchas-30ml-con-melasyl-y-10-niacinamida-previene-la-reaparicion",
@@ -787,7 +856,8 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/images/serumlaroche.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/1nbJEVw",
-    recommended: true
+    recommended: true,
+    active: true
   },
   {
     id: 100,
@@ -796,6 +866,7 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     image: "/img/proteina.jpg",
     category: "suplementos",
     url: "LINK_AFILIADO",
-    recommended: true
+    recommended: true,
+    active: true
   }
 ];
