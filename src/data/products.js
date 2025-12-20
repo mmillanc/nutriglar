@@ -779,11 +779,28 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     recommended: true,
     active: true
   },
-  {id: 1,
+  {id: 0,
     slug:"serum-antiarrugas-pure-vitamin-c12-30ml-la-roche-posay-todo-tipo-de-piel-noche",
     name: "Serum Antiarrugas Pure Vitamin C12 30ml La Roche-posay Todo Tipo De Piel Noche",
     description: "Serum Antiarrugas Pure Vitamin C12 30ml. Noche. Fórmula enriquecida con vitamina C pura al 12%",
-    image: "/images/serumlarocheamarillo.webp",
+    descriptionLong: `Serum Antiarrugas Pure Vitamin C12 30ml
+
+La Roche-Posay
+
+Todo Tipo De Piel
+
+Noche
+
+- Fórmula enriquecida con vitamina C pura al 12%
+- Ayuda a reducir la apariencia de arrugas y líneas de expresión
+- Textura ligera que se absorbe rápidamente
+- Mejora la luminosidad y uniformidad del tono de la piel
+- Contiene ingredientes hidratantes para mayor confort
+- Ideal para uso nocturno
+
+Ideal para revitalizar la piel y proporcionar un aspecto más joven y fresco.
+`,
+image: "/images/serumlarocheamarillo.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/31zaQFQ",
     recommended: true,
@@ -793,7 +810,18 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     slug:"perfume-de-mujer-lattafa-yara-eau-de-parfum-100-ml",
     name: "Perfume de mujer Lattafa Yara eau de parfum 100 ml",
     description: "El perfume Yara de Lattafa presenta un aroma tropical y gourmand que lo distingue en el mundo de la perfumería.",
-    image: "/images/perfumelattafa.webp",
+    descriptionLong: `El perfume Yara de Lattafa presenta un aroma tropical y gourmand que lo distingue en el mundo de la perfumería. Este perfume tiene una composición olfativa muy interesante que mezcla notas florales y frutales con un toque dulce y cremoso. Aquí están las notas detalladas:
+
+• Notas de salida: Orquídea, heliotropo y mandarina.
+
+• Notas de corazón: Acorde gourmand y frutas tropicales.
+
+• Notas de fondo: Vainilla, almizcle y sándalo.
+
+Detalles:
+- Fragancia Femenina.
+`,
+image: "/images/perfumelattafa.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/24zptYm",
     recommended: true,
@@ -803,8 +831,37 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     slug:"pack-revitalift-serum-acido-hialuronico-serum-retinol",
     name: "Pack Revitalift Serum Ácido Hialurónico + Serum Retinol",
     description: `Para combatir los signos del envejecimiento descubre nuestro nuevo Serum L'Oreal Revitalift, SÉRUM RELLENADOR con 1.5% de Ácido Hialurónico Puro.`,
+    descriptionLong: `El ÁCIDO HIALURÓNICO PURO es uno de los componentes naturales de la piel, pero con el tiempo va disminuyendo. La piel se deshidrata y las arrugas aparecen.
+
+
+Para combatir estos signos del envejecimiento descubre nuestro nuevo Serum L'Oreal Revitalift, SÉRUM RELLENADOR con 1.5% de Ácido Hialurónico Puro. 0.5% de Ácido Hialurónico Hidrofílico Rehidrata intensamente la superficie de la piel al atraer y absorber 1000 veces su peso en agua.
+
+
+1% de Ácido Hialurónico Fragmentado Penetra más profundo en la superficie de la piel para ayudar a rellenarla visiblemente.
+
+
+RESULTADOS VISIBLES Inmediatamente
+
+La piel se siente hidratada, más elástica y fresca.
+
+En 1 semana*: La piel luce radiante, se siente como rellenada y firme.
+
+En 2 semanas**: Las líneas de expresión se reducen (-19%).
+
+Las arrugas se reducen (-14%). En 4 semanas**: Las líneas de expresión se reducen (-40%).
+
+Las arrugas se reducen (-31%). Cada mañana y/o noche, aplica 2-3 gotas en el rostro y cuello, evitando el área de los ojos. Para mejores resultados, usa el resto de la gama.
+
+
+Nuevo Revitalift Sérum Noche con Retinol L’Oreal París. Un nuevo avance con retinol puro que busca ofrecer la mejor eficacia y experiencia en un sérum. Consigue un efecto corrector de arrugas, incluso, profundas en las zonas clave del rostro.`,
     image: "/images/revitalif.webp",
     category: "belleza",
+    benefits: [
+    "El Serum Retinol Puro de L’Oréal Paris corrige arrugas, incluso las profundas.",
+    "Posterior a su uso inmediatamente la piel está más hidratada, flexible y se ve más lisa.",
+    "En 1 mes la textura de la piel se refina, se ve más joven y más luminosa.",
+    "En 4 meses las arrugas se reducen un 36%*. Reducción visible de arrugas profundas.",
+    ],
     url: "https://mercadolibre.com/sec/2HmsqHq",
     recommended: true,
     active: true
@@ -813,8 +870,29 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     slug:"pack-cicatricure-pack-gold-lift-crema-dia-noche-serum",
     name: "Pack Cicatricure Pack Gold Lift Crema Dia+noche+serum",
     description: `Pack Cicatricure Gold Lift Crema Dia+Noche+Serum. La línea Antiedad Gold Lift combina Péptidos de Oro, Calcio y Silicio, impactando en la morfología de la piel, reduciendo la profundidad de las arrugas gravitacionales y redefiniendo el contorno facial.`,
+    descriptionLong: `¿Qué contiene el pack?
+- Cicatricure Gold Lift Serum facial 27 ml.
+- Cicatricure Gold Lift Crema Día FPS 30 100 ml.
+- Cicatricure Gold Lift Crema Noche 100 ml.
+
+La línea Antiedad Gold Lift combina Péptidos de Oro, Calcio y Silicio, impactando en la morfología de la piel, reduciendo la profundidad de las arrugas gravitacionales y redefiniendo el contorno facial.
+
+Favorece la recuperación de elasticidad y el proceso de auto reparación nocturna de la piel. Actúa en la noche creando una lámina que regula la pérdida de agua. Textura sedosa. Mejora la hidratación y la apariencia de la piel.
+
+El serum facial de la línea Gold actúa sobre arrugas gravitacionales y líneas de expresión, su fórmula concentrada con Péptidos de Oro, Calcio y Silicio actúa con efecto lifting y se absorbe rápidamente, permitiendo una reparación más profunda de la piel en menos tiempo. Su efecto tensor mejora la elasticidad y humectación de la piel y con el uso continuado incrementa la firmeza, dando como resultado un rostro más definido. En solo 2 semanas esculpe y reafirma la piel y reduce la aparición de arrugas gravitacionales. En 6 semanas, la mayoría de las usuarias notaron su piel visiblemente más rejuvenecida. Aplícalo sobre rostro, cuello y escote perfectamente limpios. Dermatológicamente Testado.
+
+Modo de uso: Diario
+Para las cremas, aplicar diariamente, con movimientos ascendentes en rostro y cuello. La crema de noche se aplica de la misma forma antes de dormir.
+
+Para el Serum, sobre rostro limpio y seco, aplicar algunas gotas del elixir y distribuir con pequeños golpecitos hasta que la piel lo absorba por completo. Se recomienda el uso diario.`,
     image: "/images/cicatricure.webp",
     category: "belleza",
+    benefits: [
+    "Reduce arrugas gravitacionales: Las cremas reducen el efecto de cara caída causado por los años y la gravedad, rellenando surcos y creando un efecto lifting en solo 2 semanas, utilizando la rutina completa de Cicatricure Gold Lift.",
+    " Aumenta la elasticidad y la humectación: El Serum mejora al instante la elasticidad y humectación de la piel y con el tiempo incrementa la firmeza, dando como resultado un rostro más definido. Efecto tensor que redefine el contorno facial, reafirmando rostro, cuello, papada y escote. La crema de noche actúa mientras duermes.",
+    "El serum actúa sobre arrugas gravitacionales y líneas de expresión. La mayoría de las usuarias sintieron su piel más firme.",
+    "Actúa con efecto lifting y se absorbe rápidamente, permitiendo una reparación más profunda de la piel en menos tiempo.",
+    ],
     url: "https://mercadolibre.com/sec/2FF2Rjp",
     recommended: true,
     active: true
@@ -823,6 +901,26 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     slug:"perfume-lbel-bleu-intense-de-100-ml-edt-para-hombre-herbales-fresco-de-larga-duracion",
     name: "Perfume L'bel Bleu Intense De 100 ml EDT Para Hombre Herbales Fresco De Larga Duración",
     description: `Perfume Bleu Intense L'bel Para Hombre Notas Herbales 100ml. Fragancia masculina fresca y enérgica que combina notas herbales y marinas con la intensidad de la salvia.`,
+    descriptionLong: `Perfume Bleu Intense L'bel Para Hombre Notas Herbales 100ml
+
+Fragancia masculina fresca y enérgica que combina notas herbales y marinas con la intensidad de la salvia. Inspirada en la fuerza del océano, es ideal para hombres que viven sin límites y buscan un aroma revitalizante y duradero.
+
+Características:
+- Tipo de producto: perfume para hombre
+- Familia olfativa: herbal aromática con notas marinas
+- Concentración: Eau de Parfum
+- Contenido: 100 ml
+- Uso: versátil, para el día y cualquier ocasión
+
+Notas olfativas:
+- Salida: notas marinas, anís estrellado, cardamomo
+- Cuerpo: baya de enebro, jengibre de China, salvia sclarea
+- Fondo: haba tonka, Healingwood Captive, musgo de roble de Yugoslavia
+
+Modo de uso:
+- Aplica en cuello, muñecas y detrás de las orejas para maximizar la fijación y proyección.
+
+Un aroma fresco y poderoso que transmite energía, vitalidad y confianza.`,
     image: "/images/bluehombre.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/1571XDM",
@@ -833,6 +931,18 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     slug:"protector-solar-corporal-para-niños-fps-50-eucerin-250-m",
     name: "Protector Solar Corporal Para Niños Fps 50+ | Eucerin 250 M",
     description: `Protector solar para niños especialmente formulado para calmar la piel sensible y protegerla de las quemaduras solares y el daño inducido por el sol a largo plazo.`,
+    descriptionLong: `Protector solar para niños especialmente formulado para calmar la piel sensible y protegerla de las quemaduras solares y el daño inducido por el sol a largo plazo.
+
+Características:
+- Tipo de producto: protector solar
+- Familia olfativa: sin notas específicas
+- Concentración: FPS 50+
+- Contenido: 250 ml
+- Uso: diario, ideal para niños
+
+Modo de uso:
+- Aplica en todo el cuerpo, evitando los ojos.
+- Reaplica cada 2 horas o después de nadar o sudar.`,
     image: "/images/protectoreucerin.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/1Z3T4gL",
@@ -843,9 +953,30 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     slug:"gel-limpiador-espumoso-473-ml-tipo-de-piel-normal-a-grasa",
     name: "Gel Limpiador Espumoso 473 Ml Tipo de piel Normal a Grasa",
     description: `Gel Limpiador Espumoso CeraVe remueve y limpia gentilmente la suciedad y el exceso de grasa de la piel, ayudando a restaurar la barrera de la piel gracias a sus 3 ceramidas esenciales.`,
+    descriptionLong: `Gel Limpiador Espumoso CeraVe remueve y limpia gentilmente la suciedad y el exceso de grasa de la piel, ayudando a restaurar la barrera de la piel gracias a sus 3 ceramidas esenciales.
+
+Propiedades:
+Desarrollada junto con dermatólogos, limpia profundamente sin resecar la piel.
+
+Textura:
+Gel espumoso, refrescante y de rápida absorción.
+
+Modo de uso:
+1. Presiona el dosificador.
+2. Aplica el producto con masajes suaves en rostro, cuello y/o rostro.
+3. Limpiar 1 o 2 veces al día según necesidad.
+`,
     image: "/images/cerave.webp",
     category: "belleza",
     url: "https://mercadolibre.com/sec/2xRCWBG",
+    benefits: [
+    "Limpia profundamente.",
+    "Refresca y limpia.",
+    "Para piel Normal a Grasa.",
+    "No comedogénico: No obstruye poros.",
+    "Hipoalergénico.",
+    "Apto para pieles sensibles.",
+    ],
     recommended: true,
     active: true
   },
@@ -853,8 +984,17 @@ Gracias a su diseño 3 en 1, que combina mancuernas y barra, este set es ideal p
     slug:"serum-concentrado-mela-b3-la-roche-posay-antimanchas-30ml-con-melasyl-y-10-niacinamida-previene-la-reaparicion",
     name: "Sérum Concentrado Mela B3 La Roche-Posay Antimanchas 30ml con Melasyl y 10% Niacinamida Previene la Reaparición",
     description: `El Sérum Concentrado MELA B3 es un tratamiento específico formulado para combatir las manchas oscuras y prevenir su reaparición.`,
+    descriptionLong: `La Roche Posay es una marca que ofrece una variedad de productos para el cuidado de la piel facial. Si buscas protegerla y mantenerla en forma, esta puede ser una buena opción.
+
+El Sérum Concentrado MELA B3 es un tratamiento específico formulado para combatir las manchas oscuras y prevenir su reaparición. Potenciado con Melasyl™ y un 10% de Niacinamida, este sérum ayuda a reducir las manchas existentes y uniforma el tono de la piel. Es ideal para personas que desean una piel más clara y homogénea, reduciendo la aparición de nuevas manchas causadas por factores como el sol, el envejecimiento o cambios hormonales.`,
     image: "/images/serumlaroche.webp",
     category: "belleza",
+    benefits: [
+    "Reducción de Manchas: Disminuye la intensidad y el tamaño de las manchas oscuras en la piel.",
+    "Prevención de Reaparición: Su fórmula avanzada evita que las manchas regresen, garantizando una piel más uniforme a largo plazo.",
+    "Efecto Calmante e Iluminador: La combinación de Melasyl y Niacinamida ayuda a calmar la piel y mejorar su luminosidad.",
+    "Apto para Todo Tipo de Piel: Su textura ligera y de rápida absorción lo hace adecuado para pieles normales, mixtas y sensibles.",
+    ],
     url: "https://mercadolibre.com/sec/1nbJEVw",
     recommended: true,
     active: true
