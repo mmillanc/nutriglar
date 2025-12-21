@@ -26,6 +26,14 @@ export default function ProductDetail() {
     )
     .slice(0, 4)
 
+    const descriptionText =
+    typeof product.descriptionLong === 'string'
+    ? product.descriptionLong
+    : typeof product.description === 'string'
+      ? product.description
+      : ''
+
+
   return (
     <main className="max-w-6xl mx-auto px-4 py-8">
 
@@ -56,19 +64,19 @@ export default function ProductDetail() {
             {product.name}
           </h1>
 
-          <div className="text-sm text-black-700 mb-6 mr-8 space-y-3">
-            {(product.descriptionLong || product.description)
+          <div className="text-sm text-gray-700 mb-6 mr-8 space-y-3">
+            {descriptionText
             .split('\n')
-            .filter(p => p.trim() !== '')
-            .map((line, i) => (
-              line.endsWith(':') ? (
-                <h3 key={i} className="font-semibold mt-4">
-                  {line}
-                </h3>
+            .filter(line => line.trim() !== '')
+            .map((line, i) =>
+            line.trim().endsWith(':') ? (
+              <h3 key={i} className="font-semibold mt-4">
+                {line}
+              </h3>
               ) : (
-                <p key={i}>{line}</p>
+              <p key={i}>{line}</p>
               )
-              ))}
+              )}
           </div>
 
           {/* Beneficios (opcional) */}
