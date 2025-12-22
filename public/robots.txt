@@ -1,0 +1,5 @@
+Mejora agregada por Gemini
+User-agent: *
+Allow: /
+
+Sitemap: https://www.nutriglar.cl/sitemap.xml
