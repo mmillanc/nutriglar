@@ -23,7 +23,7 @@ export default function App() {
             {/* --- RUTAS DINÁMICAS --- */}
             {/* Esta ruta captura /nutricion, /equipamento, etc. */}
             <Route path="/:category" element={<CategoryPage />} />
-            
+
             {/* Esta ruta captura /nutricion/proteinas, etc. */}
             <Route path="/:category/:subcategory" element={<CategoryPage />} />
           </Routes>

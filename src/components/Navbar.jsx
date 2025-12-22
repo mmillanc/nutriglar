@@ -21,6 +21,14 @@ const MENU = [
     ]
   },
   {
+    label: "Accesorios",
+    path: "accesorios",
+    subs: [
+      { name: "Accesorios", slug: "accesorios" },
+      { name: "Calzado", slug: "calzado" }
+    ]
+  },
+  {
     label: "Belleza",
     path: "belleza",
     subs: [

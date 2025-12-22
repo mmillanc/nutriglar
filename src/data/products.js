@@ -11,7 +11,7 @@ export const products = [
                       "Para disfrutar de todos sus beneficios, solo debes mezclar 1 cucharadita de té o una medida (5g) con 200ml de agua, agitar y consumir."],
     image: "/images/creatina.webp",
     category: "nutricion",
-    subcategory: "creatina",
+    subcategory: "creatinas",
       benefits: [
     "Mejora el rendimiento físico",
     "Previene las lesiones musculares",
@@ -280,7 +280,7 @@ Compra con confianza: CREATINE+ asegura rendimiento y salud, con el respaldo de 
 `,
     image: "/images/creatina1.webp",
     category: "nutricion",
-    subcategory: "creatina",
+    subcategory: "creatinas",
     benefits: [
     "Mejora el rendimiento deportivo.",
     "Aumenta la energía y acelera la recuperación.",

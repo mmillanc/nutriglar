@@ -10,6 +10,10 @@
 <url><loc>https://www.nutriglar.cl/equipamento</loc><priority>0.8</priority></url>
 <url><loc>https://www.nutriglar.cl/equipamento/pesas</loc><priority>0.7</priority></url>
 
+<url><loc>https://www.nutriglar.cl/accesoriosn</loc><priority>0.8</priority></url>
+<url><loc>https://www.nutriglar.cl/accesorios/accesorios</loc><priority>0.7</priority></url>
+<url><loc>https://www.nutriglar.cl/accesorios/calzado</loc><priority>0.7</priority></url>
+
 <url><loc>https://www.nutriglar.cl/belleza</loc><priority>0.8</priority></url>
 <url><loc>https://www.nutriglar.cl/belleza/perfumes</loc><priority>0.7</priority></url>
 </urlset>

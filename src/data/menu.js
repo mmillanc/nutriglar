@@ -20,6 +20,15 @@ export const MENU = [
     ]
 },
 {
+    label: "Accesorios",
+    path: "accesorios",
+    subtitle: "Todo para tu entrenamiento",
+    subs: [
+    { name: "Accesorios", slug: "accesorios" },
+    { name: "Calzado", slug: "calzado" }
+    ]
+},
+{
     label: "Belleza",
     path: "belleza",
     subtitle: "Todo para tu bienestar diario",
