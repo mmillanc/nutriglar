@@ -1043,12 +1043,189 @@ El Sérum Concentrado MELA B3 es un tratamiento específico formulado para comba
     active: true
   },
   {
+    id: 43,
+    slug:"oneblade-philips-qp2824-10-cara-y-cuerpo-recorta-perfila",
+    name: "Oneblade Philips Qp2824/10 Cara Y Cuerpo Recorta Perfila",
+    description: "Recorta, perfila y afeita cualquier largo de cabello. Diseñado para cortar el cabello, no la piel.",
+    descriptionLong: `Oneblade Philips QP2824/10 Cara y Cuerpo Recorta Perfila
+
+Recorta, perfila y afeita cualquier largo de cabello. Diseñado para cortar el cabello, no la piel.
+
+Philips OneBlade tiene una tecnología revolucionaria diseñada para el cuidado facial. Puede afeitar cualquier largo de cabello. Su sistema de doble protección, un recubrimiento deslizante combinado con puntas redondeadas, hace que el afeitado sea más fácil y cómodo. Su tecnología de afeitado cuenta con un cortador de movimiento rápido (12000x por minuto) por lo que es eficiente, incluso en vello más largo.
+
+Peine ajustable 5 en 1
+Diseño único de peine abierto para un corte eficiente sin obstruir ni interrumpir tu rutina, incluso en cabello largo y grueso.
+
+Perfila
+Cree bordes precisos con la hoja de doble cara. Puedes afeitarte en cualquier dirección para obtener una gran visibilidad y ver cada vello que estás cortando. Alinea tu estilo en segundos.
+
+Afeita
+OneBlade no afeita tan al ras como la cuchilla tradicional, por lo que tu piel se mantiene cómoda. Ve contra la corriente y afeita fácilmente cualquier largo de cabello.
+
+Protector de piel de clic para áreas sensibles
+Coloque el protector para la piel para obtener una capa adicional de protección en áreas sensibles.
+
+Peine para el cuerpo de clic (3 mm) para un recorte fácil en cualquier dirección.
+
+Hoja de doble cara: diseñada para precisión y control
+
+OneBlade sigue los contornos de tu rostro, permitiéndote recortar y afeitar todas las áreas de manera fácil y cómoda. Usa la hoja de doble cara para dar estilo a tus bordes y crea líneas limpias moviendo la hoja en cualquier dirección.
+
+Se puede cargar en casa o de viaje, perfecto para su rutina diaria y para viajar.
+
+Cuchilla de acero inoxidable duradera que dura hasta 4 meses de uso* para mantener esa sensación de frescura. Cuando el indicador de reemplazo (icono de expulsión) aparezca en la hoja, es posible que el rendimiento de la hoja ya no sea óptimo. Es hora de considerar cambiar la hoja para la mejor experiencia de afeitado.
+
+OneBlade es completamente resistente al agua, por lo que es fácil de limpiar: simplemente enjuáguelo bajo el grifo. Puedes afeitarte en húmedo o en seco, incluso en la ducha, como prefieras. No se necesita espuma de afeitar.
+
+La batería NimH recargable ofrece 45 minutos de potencia de afeitado constante después de una carga de 8 horas.`,
+    image: "/images/oneblade.webp",
+    category: "belleza",
+    subcategory: "cuidadopersonal",
+    benefits: [
+    "Protector de piel de clic para áreas sensibles.",
+    "Totalmente impermeable.",
+    "Batería de larga duración.",
+    ],
+    url: "https://mercadolibre.com/sec/215QUuA",
+    recommended: true,
+    active: true
+  },
+  {
+    id: 44,
+    slug: "secador-multistyler-6-en-1-blanco-mint",
+    name: "Secador Multistyler 6 En 1 Blanco Mint",
+    description: "Secador Multistyler 6 en 1 Mint, la solución perfecta para transformar tu rutina de peinado con accesorios para cada tipo de cabello",
+    descriptionLong: `Secador Multistyler 6 en 1 Mint, la solución perfecta para transformar tu rutina de peinado con accesorios para cada tipo de cabello.
+
+Su motor de alta velocidad y tecnología de Iones Negativos, seca tu cabello rápidamente mientras lo protege y suaviza.
+
+Gracias a sus 6 accesorios: cabezal redondo, cabezal ovalado, cepillo redondo, cepillo plano, rizador de aire izquierdo y derecho, crea estilos únicos como cabello liso, rizos perfectos o volumen espectacular, todo en un solo paso.
+
+Diseñado para cuidar tu cabello con temperatura constante e inteligencia avanzada, este secador es tu aliado para lucir siempre espectacular.`,
+    image: "/images/secadormint.webp",
+    category: "belleza",
+    subcategory: "cuidadopersonal",
+    benefits: [
+    "Es iónico.",
+    "Voluminizá tu cabello.",
+    ],
+    url: "https://mercadolibre.com/sec/1mXcjWw",
+    recommended: true,
+    active: true
+  },
+    {
+    id: 45,
+    slug: "suplemento-en-capsulas-wellplus-magnesio-quelado-triple-zinc-en-pote-de-114g-120-un",
+    name: "Suplemento en cápsulas WellPlus Magnesio Quelado Triple + Zinc en pote de 114g 120 un",
+    description: "Es una mezcla sinérgicade zinc quelado con L-metionina más 3 tipos de magnesios",
+    descriptionLong: `Es una mezcla sinérgicade zinc quelado con L-metionina más 3 tipos de magnesios
+Los 3 tipos de magnesio quelados que son: malato de magnesio, bisglicinato de magnesio y taurato de magnesio
+Estas formas de magnesio tienen una alta biodisponibilidad.
+Éstos magnesios se complementan y podrían favorecer el funcionamiento de corazón, músculos, nervios y huesos.
+A esta fórmula se le ha adicionado Selenio como mineral antioxidante.
+Producto 100% Vegano
+Presentación 120 cápsulas.
+Dosis diaria: 4 cápsulas diarias donde pueden tomarse 2 en horario AM y 2 en horario PM.
+Producto libre de gluten y lactosa.
+
+Aviso legal
+• Edad mínima recomendada: 8 años.`,
+    image: "/images/magnesiowellplus.webp",
+    category: "nutricion",
+    subcategory: "suplementos",
+    url: "https://mercadolibre.com/sec/1FszNjH",
+    recommended: true,
+    active: true
+  },
+  {
+    id: 46,
+    slug: "torno-inalambrico-profesional-pedicura-manicura-45000-fresa",
+    name: "Torno Inalámbrico Profesional Pedicura Manícura 45000+ Fresa",
+    description: "Excelente para manicura y pedicura profesional y para uso en el hogar.",
+    descriptionLong: `Botones de avance y retroceso, rotación positiva predeterminada (pantalla: F)
+
+El puerto de carga USB puede proporcionar la función de carga del teléfono móvil
+
+Interfaz de carga de amoladora tipo C
+
+Visualización de velocidad: 00-45 RPM, que representa 0-45000 Gire para ajustar el número.
+
+Gire en el sentido de las agujas del reloj para aumentar la velocidad; gire en sentido antihorario para disminuir la velocidad.
+
+El portalápices se puede insertar en los lados izquierdo y derecho.
+
+Garantía del vendedor: 6 meses`,
+    image: "/images/naildrill.webp",
+    category: "belleza",
+    subcategory: "cuidadopersonal",
+    benefits: [
+    "Alta velocidad de hasta 45000 RPM.",
+    "Diseño inalámbrico para mayor comodidad.",
+    "Fácil de usar con botones de avance y retroceso.",
+    ],
+    url: "https://mercadolibre.com/sec/2xDVhbD",
+    recommended: true,
+    active: true
+  },
+  {
+    id: 47,
+    slug: "creatina-en-polvo-primetech-x-1kg",
+    name: "Creatina En Polvo Primetech X 1kg",
+    description: "Creatina 100% Monohidrato 1000 gr (200 Servicios). Ideal para quienes buscan mejorar su fuerza, aumentar su masa muscular y acelerar su recuperación tras cada entrenamiento.",
+    descriptionLong: `Creatina 100% Monohidrato 1000 gr (200 Servicios)
+
+Ideal para quienes buscan mejorar su fuerza, aumentar su masa muscular y acelerar su recuperación tras cada entrenamiento.
+
+Con 1000 gr de creatina pura y 200 servicios por envase, obtienes la dosis perfecta para potenciar tus entrenamientos diarios y optimizar tus resultados.
+Aviso legal
+• Edad mínima recomendada: 15 años.`,
+    image: "/images/creatinaprime.webp",
+    category: "nutricion",
+    subcategory: "creatinas",
+    benefits: [
+    "Incrementa la fuerza y masa muscular de manera efectiva.",
+    "Promueve una recuperación más rápida entre sesiones de entrenamiento.",
+    "Libre de gluten y vegano, apto para diversas dietas.",
+    ],
+    url: "https://mercadolibre.com/sec/2iX8PvZ",
+    recommended: true,
+    active: true
+  },
+  {
+    id: 48,
+    slug: "suero-amplificador-para-pestañas-mucho-mas-largas-es-la-gloria-entre-rímel",
+    name: "Suero Amplificador Para Pestañas Mucho Mas Largas Es La Gloria Entre Rímel",
+    description: "Deja que tus pestañas sean el centro de atención.",
+    descriptionLong: `FLash suero amplificador de pestañas te ayudará a obtener unas pestañas largas y rizadas en poco tiempo.
+
+- Es fácil de usar. Flash es un producto de rimel. Es la gloria entre rímel
+Productos. Lt es una marca top.
+
+- Funciona como un delineador líquido y se seca en minutos.
+
+- Se aplica una vez al día preferentemente en la noche después de desmaquillar los ojos y pestañas.
+
+`,
+    image: "/images/flashpestanas.webp",
+    category: "belleza",
+    subcategory: "belleza",
+    benefits: [
+    "Es un producto hipoalergénico que no irrita ojos sensibles ni usuarios de lentes de contacto.",
+    "Resistente al agua y al calor para un uso prolongado.",
+    "Aplicación diaria que otorga pestañas largas y rizadas en poco tiempo.",
+    ],
+    url: "https://mercadolibre.com/sec/2gypRgh",
+    recommended: true,
+    active: true
+  },
+  {
     id: 100,
+    slug: " ",
     name: "Proteína Vegetal X",
     description: "Saciedad y digestión ligera",
     descriptionLong: ``,
-    image: "/img/proteina.jpg",
-    category: "suplementos",
+    image: "/images/proteina.webp",
+    category: "",
     benefits: [
     "Reducción de Manchas: Disminuye la intensidad y el tamaño de las manchas oscuras en la piel.",
     "Prevención de Reaparición: Su fórmula avanzada evita que las manchas regresen, garantizando una piel más uniforme a largo plazo.",
