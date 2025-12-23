@@ -1,5 +1,10 @@
 # React + Vite
 
+# Experiencia al integrar API Mercadolibre
+ Documento en la carpeta public
+Para mi fue una experiencia muy valiosa al realizar este proyecto, además del uso de implementación de SEO, indexación a Google y GA4
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
